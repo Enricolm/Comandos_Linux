@@ -1,0 +1,175 @@
+  501  cd Documents
+  502  ls
+  503  rm -r reste.arq
+  504  rm -r teste.arq
+  505  ls
+  506  cd labs
+  507  ls
+  508  cd arqs_dirs/
+  509  ls
+  510  cd ..
+  511  rm -r labs
+  512  ls
+  513  cd dir1
+  514  cd dir2/dir3/
+  515  rm -r dir4
+  516  l
+  517  ls
+  518  touch teste1 teste2 teste/ 3
+  519  ls
+  520  rm -r 3
+  521  ls
+  522  mkdir teste\ 3
+  523  ls
+  524  rm -r teste 3
+  525  rm -r teste\ 3
+  526  ls
+  527  touch teste\ 3
+  528  ls
+  529  cd ..
+  530  rm -r dir3
+  531  ls
+  532  cd ..
+  533  rm -r dir1
+  534  ls
+  535  mkdir dir1/dir2
+  536  mkdir dir1/dir2/
+  537  mkdir -r dir1/dir2/
+  538  mkdir dir1 dir2
+  539  ls
+  540  rm -r dir2
+  541  ls
+  542  rm -r dir1
+  543  ls
+  544  mkdir dir1/dir2
+  545  mkdir dir1/dir2/
+  546  mkdir -p dir1/dir2/
+  547  ls
+  548  cd dir1
+  549  ls
+  550  mkdir dir3 dir4 dir5
+  551  ls
+  552  cd dir5
+  553  touch teste1 teste2 teste3
+  554  ls
+  555  cd ..
+  556  ls
+  557  mkdir dir2
+  558  ls
+  559  mkdir dir2/dir5
+  560  ls
+  561  cp -r dir1/dir5/* dir2/dir5
+  562  cd dir2
+  563  cd dir5
+  564  ls
+  565  cd ..
+  566  rm -rf dir5
+  567  ls
+  568  ls -all
+  569  mkdir dir5
+  570  cp -r ~/Documents/dir1/dir5/* dir5/
+  571  ls
+  572  cd dir5/
+  573  ls
+  574  cd ~
+  575  cd Documents
+  576  ls
+  577  mdirk dir3
+  578  mdir dir3
+  579  mkdir dir3
+  580  ls
+  581  mv dir2 dir3
+  582  ls
+  583  cd dir3
+  584  ls
+  585  cd dir2
+  586  ls
+  587  cd dir5
+  588  ls
+  589  cd ..
+  590  mv dir5 ~/dir3/
+  591  cd ..
+  592  ls
+  593  cd dir2
+  594  ls
+  595  cd..
+  596  cd ..
+  597  ls
+  598  cd dir3
+  599  ls
+  600  cd dir2
+  601  cd ..
+  602  la
+  603  ls
+  604  rm -r dir3
+  605  cd Documents/dir1
+  606  ls
+  607  mv dir5 ~/Documents/dir2
+  608  cd ~
+  609  cd Documents/
+  610  la
+  611  mv dir2/dir5 dir3/
+  612  cd dir2
+  613  ls
+  614  cd
+  615  cd Documents/
+  616  mv dir2 dir3/
+  617  ls
+  618  dir3
+  619  cd dir3
+  620  ls
+  621  cd dir2
+  622  ls
+  623  cd ~/Dicuments
+  624  cd ~/Documents
+  625  mkdir globing
+  626  cd globing
+  627  cp ~/Documents/dir2 globing
+  628  ls
+  629  cd ..
+  630  ls
+  631  cd dir3
+  632  ls
+  633  cd ..
+  634  cd-
+  635  cd -
+  636  ls
+  637  cd globing
+  638  cp -r ~/Documents/dir3/dir2 globing
+  639  ls
+  640  globing
+  641  rm -r globing
+  642  ls
+  643  cp -r ~/Documents/dir3/dir2 
+  644  cd ..
+  645  cp -r ~/Documents/dir3/dir2 globing 
+  646  ls
+  647  cd globing
+  648  ls
+  649  cd dir2
+  650  ls
+  651  ls teste?
+  652  ls teste*
+  653  ls t*
+  654  touch teste23
+  655  touch teste233 teste 32 teste67 teste3838 teste4848 teste282 
+  656  ls
+  657  ls *2*
+  658  ls te??e*
+  659  *7*
+  660  *7
+  661  ls *7*
+  662  ls
+  663  touch exem2323 exem323 exem577 exem9595 exem0302 exem2318
+  664  ls
+  665  ls *5*
+  666  ls ????*[1-5]*
+  667  ls ????*[1-2]*
+  668  ls [t-e]???*[1-2]*
+  669  ls [t-e]*[1-2]*
+  670  ls [t-e]**[1-2]*
+  671  ls [t-e]*[1-2]*
+  672  ls [t,e]*[1-2]*
+  673  cd ~/Documents
+  674  history
+
